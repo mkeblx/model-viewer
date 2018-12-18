@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "pbr-spheres",
+    "goldens": [{
+      "name": "Filament",
+      "file": "filament-golden.png"
+    }],
+    "dimensions": {
+      "width": 1600,
+      "height": 1600
+    }
+  }
+]

@@ -78,6 +78,20 @@ export default [
     onwarn,
   },
   {
+    input: './lib/test/fidelity/index.js',
+    output: {
+      file: './dist/fidelity.js',
+      sourcemap: true,
+      format: 'umd',
+      name: 'ModelViewerFidelity'
+    },
+    watch: {
+      include: 'lib/test/fidelity/**',
+    },
+    plugins,
+    onwarn
+  },
+  {
     input: './examples/dependencies/index.js',
     output: {file: './examples/built/dependencies.js', format: 'umd'},
     plugins,
